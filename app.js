@@ -82,13 +82,6 @@ app.post('/upload', upload.single('image') ,(req,res) => {
 })
 
 
-
-
-
-
-
-
-
 app.listen(process.env.PORT,process.env.HOST,() => {
     console.log(`Server Started http://${process.env.HOST}:${process.env.PORT}`);
 })
